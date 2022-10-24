@@ -15,6 +15,25 @@ a {
 * {
   box-sizing: border-box;
 }
+.btn{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 20px 30px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+}
+.btn--primary{
+  background-color: #4397A4;
+  color: white;
+}
+.btn--light{
+  background-color: #C6DBFF;
+  color: #486A6F;
+}
 
 @media (prefers-color-scheme: dark) {
   html {

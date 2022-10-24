@@ -1,8 +1,6 @@
 import Head from 'next/head'
+import Home from '../components/Home'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-    </div>
-  )
+export default function HomePage() {
+  return <Home />
 }

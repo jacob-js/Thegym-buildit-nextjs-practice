@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+    min-height: 55rem;
+    position: absolute;
+    background-color: #E1EBFA;
+    inset: 0;
+    z-index: -1;
+}
+.content{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fig{
+    width: 35rem;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, #9ED5DE 0%, #4397A4 100%);
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    clip-path: polygon(50% 0%, 100% 0, 100% 60%, 100% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+.heroIntro{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.heroTitle{
+    font-size: 64px;
+    font-weight: bold;
+    color: #486A6F;
+    line-height: 72px;
+}
+.desc{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #678C92;
+}
+.heroBtns{
+    display: flex;
+    gap: 20px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 30px;
+}
+.img{
+    width: max-content;
+    height: max-content;
+}
+.images1{
+    display: flex;
+    align-items: baseline;
+    gap: 25px;
+}
+.images2{
+    display: flex;
+    gap: 25px;
+}
