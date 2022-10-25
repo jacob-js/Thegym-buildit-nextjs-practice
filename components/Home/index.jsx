@@ -2,6 +2,8 @@ import React from 'react'
 import Company from './components/Company';
 import Hero from './components/Hero';
 import Innovative from './components/Innovative';
+import Projects from './components/Projects';
+import Socials from './components/Socials';
 import classes from './Home.module.css';
 
 function Home() {
@@ -10,6 +12,8 @@ function Home() {
         <Hero />
         <Innovative />
         <Company />
+        <Projects />
+        <Socials />
     </div>
   )
 }
