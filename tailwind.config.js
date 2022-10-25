@@ -17,6 +17,13 @@ module.exports = {
       },
       height: {
         '17.5': '4.375rem'
+      },
+      padding: {
+        '22.5': '5.625rem',
+        '11': '2.8125rem'
+      },
+      dropShadow: {
+        box: '0px 30px 60px rgba(25, 55, 102, 0.2)'
       }
     },
   },

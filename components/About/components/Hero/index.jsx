@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='flex gap-16 items-center justify-center'>
+    <div className='bg-light p-32 pb-40 pt-64 flex gap-16 items-center justify-center'>
         <div className="w-2/4 flex flex-col relative">
             <img src="/img/about-h2.png" alt="" className="w-min" />
             <img src="/img/about-h1.png" alt="" className="w-min absolute -bottom-16 right-14 shadow-lg" />

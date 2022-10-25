@@ -1,10 +1,12 @@
 import React from 'react'
+import Business from './components/Business'
 import Hero from './components/Hero'
 
 function About() {
   return (
-    <div className='bg-light p-32 pb-40 pt-64'>
+    <div className=''>
         <Hero />
+        <Business />
     </div>
   )
 }
