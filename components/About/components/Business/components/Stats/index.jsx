@@ -22,7 +22,7 @@ function Stats() {
             <div className="text-bluelight">Statistics</div>
             <div className="text-dark-text text-4xl font-bold">Development in numbers</div>
         </div>
-        <div className="flex w-4/5 bg-light p-14 gap-16 drop-shadow-box">
+        <div className="flex w-5/6 bg-light p-14 gap-16 drop-shadow-box">
           {
             data.map((stat, index) =>(
               <>

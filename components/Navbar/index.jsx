@@ -8,7 +8,7 @@ function Navbar() {
     <div className={classes.nav}>
         <div className={classes.logo}>
             <div className={classes.logoCircle}></div>
-            <div className={classes.logoText}>Buildit</div>
+            <Link href="/"><div className={classes.logoText}>Buildit</div></Link>
         </div>
         <div className={classes.items}>
             <Link href="/about">About</Link>
