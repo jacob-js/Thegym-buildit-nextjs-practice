@@ -1,7 +1,4 @@
 .container{
-    min-height: 55rem;
-    position: absolute;
-    background-color: #E1EBFA;
     inset: 0;
     z-index: -1;
 }

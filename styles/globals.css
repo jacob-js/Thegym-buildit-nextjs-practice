@@ -44,6 +44,9 @@ a {
   background-color: #C6DBFF;
   color: #486A6F;
 }
+.btn--full{
+  width: 100%;
+}
 
 .projects-pic{
   filter: drop-shadow(0px 30px 60px rgba(25, 55, 102, 0.1));

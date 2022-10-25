@@ -1,5 +1,6 @@
 import React from 'react'
 import Company from './components/Company';
+import Contact from './components/Contact';
 import Hero from './components/Hero';
 import Innovative from './components/Innovative';
 import Projects from './components/Projects';
@@ -14,6 +15,7 @@ function Home() {
         <Company />
         <Projects />
         <Socials />
+        <Contact />
     </div>
   )
 }

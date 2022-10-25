@@ -11,6 +11,12 @@ module.exports = {
         default: '#678C92',
         bluelight: '#5BCCDE',
         'dark-text': '#486A6F'
+      },
+      width: {
+        '17.5': '4.375rem'
+      },
+      height: {
+        '17.5': '4.375rem'
       }
     },
   },
