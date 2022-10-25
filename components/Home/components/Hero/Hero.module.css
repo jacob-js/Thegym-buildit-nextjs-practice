@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 4rem 8rem;
 }
 .fig{
     width: 35rem;

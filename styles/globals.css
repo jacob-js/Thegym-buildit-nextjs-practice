@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
   color: #678C92;
+  overflow-x: hidden;
 }
 
 a {
@@ -26,6 +31,10 @@ a {
   font-size: 16px;
   background-color: transparent;
   color: black;
+  width: max-content;
+}
+.btn--ps{
+  padding: 15px 70px;
 }
 .btn--primary{
   background-color: #4397A4;
