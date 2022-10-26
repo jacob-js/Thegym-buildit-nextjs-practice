@@ -51,15 +51,17 @@ function Team() {
     ];
 
   return (
-    <div className='p-32 bg-light flex flex-col items-center'>
-        <div className="text-bluelight">Our team</div>
-        <div className="text-4xl font-bold text-dark-text">{"Let's meet"}</div>
-        <div className="grid grid-cols-3 gap-10 mt-16">
-            {
-                data.map((teamer, index) =>(
-                    <TeamItem teamer={teamer} key={index} />
-                ))
-            }
+    <div className='py-32 bg-light'>
+        <div className="max-w-5xl mx-auto flex flex-col items-center">
+            <div className="text-bluelight">Our team</div>
+            <div className="text-4xl font-bold text-dark-text">{"Let's meet"}</div>
+            <div className="grid grid-cols-3 gap-10 mt-16">
+                {
+                    data.map((teamer, index) =>(
+                        <TeamItem teamer={teamer} key={index} />
+                    ))
+                }
+            </div>
         </div>
     </div>
   )

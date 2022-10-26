@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className={classes.content}>
         <div className={classes.fig}></div>
-        <div className="relative z-30 flex items-center justify-center">
+        <div className="relative z-30 flex items-center justify-between gap-10 max-w-5xl">
             <div className={classes.heroIntro}>
                 <div className={classes.heroText}>
                     <div className={classes.heroTitle}>Development company</div>

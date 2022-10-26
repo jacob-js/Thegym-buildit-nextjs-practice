@@ -4,7 +4,7 @@ import ContactInfos from './components/Infos'
 
 function Contact() {
   return (
-    <div className='p-32 flex'>
+    <div className='py-32 max-w-5xl mx-auto flex justify-center'>
         <ContactInfos />
         <ContactForm />
     </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className='py-16 px-32 mt-4 flex gap-10 items-center justify-center'>
+    <div className='py-16 max-w-5xl mx-auto mt-4 flex gap-10 items-center justify-between'>
         <div className="flex flex-col gap-5 w-2/4">
             <div className="text-bluelight">Available Properties</div>
             <div className="text-dark-text text-4xl font-bold">Featured Listing</div>

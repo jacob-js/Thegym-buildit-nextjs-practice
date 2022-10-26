@@ -4,9 +4,11 @@ import Partners from './components/Partners'
 
 function Company() {
   return (
-    <div className='bg-light py-16 px-32 mt-4'>
-        <Partners />
-        <About />
+    <div className='bg-light py-16 mt-4'>
+        <div className="m-auto max-w-5xl">
+          <Partners />
+          <About />
+        </div>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import Stats from './components/Stats'
 
 function Business() {
   return (
-    <div className='p-32 flex flex-col gap-16'>
+    <div className='py-32 max-w-5xl mx-auto flex flex-col gap-16'>
         <Stats />
         <Partners />
     </div>

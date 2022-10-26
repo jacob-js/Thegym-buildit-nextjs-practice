@@ -1,12 +1,16 @@
 .nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4rem 8rem;
     position: absolute;
     z-index: 30;
     width: 100%;
     top: 0;
+}
+.navContent{
+    margin: auto;
+    padding: 4rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @apply max-w-5xl
 }
 .items{
     display: flex;

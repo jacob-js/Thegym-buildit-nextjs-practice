@@ -1,9 +1,10 @@
 .container{
-    padding: 8rem 8rem;
+    padding: 8rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    @apply max-w-5xl m-auto
 }
 .title{
     font-weight: 700;
